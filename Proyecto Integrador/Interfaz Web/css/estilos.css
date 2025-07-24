@@ -1,21 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700;900&display=swap');
 
-/* * {
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-} */
+}
 
 body {
-    font-family: "Roboto", sans-serif;
-    font-weight:400;
     color: #000;
     background-color: #F2F2F2;
+    font-family: "Roboto", sans-serif;
     font-size: 24px;
+    font-weight:400;
+    padding: 0 67px;
+}
+
+nav, header, div, aside, footer {
+    padding: 20px 0;
 }
 
 nav {
     color: #333;
+}
+
+nav img {
+    width: 240px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav li a:hover {
+    text-decoration: underline;
 }
 
 h1 {
@@ -24,9 +46,10 @@ h1 {
 
 h1 strong {
     font-size: 88.28px;
+    display: block;
 }
 
-h1 strong, h5 {
+h1 strong, footer h1 {
     font-family: "Coiny", cursive;
 }
 
@@ -34,7 +57,7 @@ h2 {
     font-size: 20px;
 }
 
-h1, h2, h5 {
+h1, h2 {
     font-weight: 400;
 }
 
@@ -46,13 +69,23 @@ h2, h3, #servicios ol li:nth-child(7), #contacto p {
     background-color: #FCEE21;
 }
 
+header section img {
+    width: 687px;
+    height: auto;
+}
+
 h3 {
     font-size: 26.42px;
     font-weight: 900;
 }
 
+#nosotros {
+    border-bottom: 1px solid gray;
+}
+
 #nosotros p {
     font-size: 22px;
+    padding: 10px 0;
 }
 
 #servicios h4 {
@@ -63,12 +96,29 @@ h3 {
     font-size: 30px;
 }
 
+#servicios section img {
+    width: 552px;
+    height: auto;
+}
+
 #contacto h4 {
     font-size: 50.58px;
     color: #FFF;
     background-color: #000;
 }
 
-h5 {
+aside img {
+    width: 117px;
+}
+
+aside p {
+    color: #808080;
+}
+
+footer {
+    background-color: #FCEE21;
+}
+
+footer h1 {
     font-size: 33px;
 }
