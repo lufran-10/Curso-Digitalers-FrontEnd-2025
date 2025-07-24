@@ -1,0 +1,13 @@
+Crear una página web llamada index.html que contenga:
+- Un título principal (<h1>) con el texto "Sobre mí".
+- Dos párrafos (<p>) que describan brevemente una biografía ficticia.
+- Una lista no ordenada (<ul>) con al menos tres pasatiempos.
+- Una lista ordenada (<ol>) con al menos tres objetivos personales.
+
+Luego, crear una hoja de estilos externa llamada estilos.css con las siguientes especificaciones:
+- El texto de los párrafos debe tener un tamaño de fuente de 16px y usar la fuente Arial.
+- El color del texto de los títulos debe ser azul.
+- El fondo de la página debe ser de color claro (por ejemplo, #f2f2f2).
+- Los elementos de las listas deben tener una fuente diferente, como "Georgia".
+
+Asegurarse de enlazar correctamente la hoja de estilos en el archivo HTML.

@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700;900&display=swap');
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight:400;
+    color: #000;
+    background-color: #F2F2F2;
+    font-size: 24px;
+}
+
+nav {
+    color: #333;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h1 strong {
+    font-size: 88.28px;
+}
+
+h1 strong, h5 {
+    font-family: "Coiny", cursive;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h1, h2, h5 {
+    font-weight: 400;
+}
+
+p strong, h4, #servicios ol li:nth-child(7), #contacto p {
+    font-weight: 700;
+}
+
+h2, h3, #servicios ol li:nth-child(7), #contacto p {
+    background-color: #FCEE21;
+}
+
+h3 {
+    font-size: 26.42px;
+    font-weight: 900;
+}
+
+#nosotros p {
+    font-size: 22px;
+}
+
+#servicios h4 {
+    font-size: 40.86px;
+}
+
+#servicios ol li:nth-child(7), #contacto p {
+    font-size: 30px;
+}
+
+#contacto h4 {
+    font-size: 50.58px;
+    color: #FFF;
+    background-color: #000;
+}
+
+h5 {
+    font-size: 33px;
+}
