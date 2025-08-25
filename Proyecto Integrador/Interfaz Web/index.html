@@ -68,9 +68,29 @@
                 <p>Envianos tu consulta >></p>
             </section>
             
-            <section>
+            <form action="codigo.php" method="post">
+                <label>Nombre <span>*</span><br>
+                    <input type="text" name="nombre" required>
+                </label>
 
-            </section>
+                <br>
+                
+                <label>Email <span>*</span><br>
+                    <input type="email" name="email" required>
+                </label>
+
+                <br>
+                
+                <label>Mensaje <span>*</span><br>
+                    <textarea name="mensaje" required></textarea>
+                </label>
+
+                <br>
+
+                <input class="button" type="submit" value="Enviar consulta">
+
+                <input class="button" type="reset" value="Borrar">
+            </form>
         </div>
     </main>
 

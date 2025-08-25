@@ -45,8 +45,8 @@ h1 {
 }
 
 h1 strong {
-    font-size: 88.28px;
     display: block;
+    font-size: 88.28px;
 }
 
 h1 strong, footer h1 {
@@ -70,8 +70,8 @@ h2, h3, #servicios ol li:nth-child(7), #contacto p {
 }
 
 header section img {
-    width: 687px;
     height: auto;
+    width: 687px;
 }
 
 h3 {
@@ -97,14 +97,47 @@ h3 {
 }
 
 #servicios section img {
-    width: 552px;
     height: auto;
+    width: 552px;
+}
+
+ol {
+    list-style-position: inside;
 }
 
 #contacto h4 {
-    font-size: 50.58px;
-    color: #FFF;
     background-color: #000;
+    color: #FFF;
+    font-size: 50.58px;
+}
+
+#contacto span {
+    color: #C1272D;
+}
+
+form {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+input {
+    font-family: "Roboto", sans-serif;
+    font-size: 26px;
+}
+
+.button {
+    background-color: #000;
+    color: #FFF;
+    font-weight: 700;
+    padding: 0.2em 1em;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+aside p {
+    display: inline;
 }
 
 aside img {
